@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:citv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <com.jason.trip.custom.view.CircleMenuLayout
+            android:id="@+id/id_menulayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/id_circle_menu_item_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.jason.trip.custom.view.CircleTextImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    citv:citv_fill_color="@color/colorPrimary"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/camera"
+                    />
+
+                <!--<ImageView-->
+                <!--android:layout_width="104.0dip"-->
+                <!--android:layout_height="104.0dip"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:background="@drawable/selector_bottom_bar_home" />-->
+
+                <!--<ImageView-->
+                <!--android:layout_width="116.0dip"-->
+                <!--android:layout_height="116.0dip"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:background="@drawable/selector_bottom_bar_explore" />-->
+            </RelativeLayout>
+        </com.jason.trip.custom.view.CircleMenuLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

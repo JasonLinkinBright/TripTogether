@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AddFloatingActionButton">
+        <attr name="fab_plusIconColor" format="color" />
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_icon" format="reference" />
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="fab_title" format="string" />
+        <attr name="fab_stroke_visible" format="boolean" />
+    </declare-styleable>
+
+    <!--CircleTickView======Begin-->
+    <declare-styleable name="CircleTickView">
+        <attr name="circleRadius" format="integer" />
+        <attr name="circleViewColor" format="color" />
+        <attr name="circleStrokeWidth" format="integer" />
+    </declare-styleable>
+    <!--CircleTickView=====End-->
+
+    <!--CircleTextImageView=====Begin-->
+    <declare-styleable name="CircleTextImageView">
+        <attr name="citv_border_width" format="dimension" />
+        <attr name="citv_border_color" format="color" />
+        <attr name="citv_border_overlay" format="boolean" />
+        <attr name="citv_fill_color" format="color" />
+        <attr name="citv_text_text" format="string" />
+        <attr name="citv_text_color" format="color" />
+        <attr name="citv_text_size" format="dimension" />
+        <attr name="citv_text_padding" format="dimension" />
+    </declare-styleable>
+    <!--CircleTextImageView=====End-->
+
+    <!-- REditText=====Begin -->
+    <declare-styleable name="TopicEditText">
+        <attr name="object_foreground_color" format="color" />
+        <attr name="object_background_color" format="color" />
+    </declare-styleable>
+    <!-- REditText=====End -->
+
+    <!-- FriendlySwipeRefreshLayout=====Begin -->
+    <declare-styleable name="FriendlySwipeRefreshLayout">
+        <attr name="progressOffset" format="dimension|reference" />
+        <attr name="progressDistanceOffset" format="dimension|reference" />
+    </declare-styleable>
+    <!-- FriendlySwipeRefreshLayout=====End -->
+
+    <declare-styleable name="RatioHeightRecyclerView">
+        <attr name="ratio" format="string|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageLayout">
+        <attr name="fillOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CardIconButton">
+        <attr name="android:src" />
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="TintStateListImageView">
+        <attr name="tint" format="color|reference" />
+    </declare-styleable>
+
+</resources>
