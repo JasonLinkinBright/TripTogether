@@ -9,5 +9,4 @@ import android.support.v7.app.AppCompatActivity;
  * Created by Jason on 16/9/4.
  */
 public class BaseActivity extends AppCompatActivity{
-
 }

@@ -6,6 +6,7 @@ import android.text.style.ForegroundColorSpan;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.Locale;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -540,6 +541,10 @@ public class StringUtils {
         return fixLenthString.substring(1, strLength + 1);
     }
 
+
+    public static String formatUs(String format, Object... args) {
+        return String.format(Locale.US, format, args);
+    }
 }
 
 

@@ -16,6 +16,19 @@ import com.orhanobut.logger.Logger;
  * Created by Jason on 16/9/5.
  */
 public class TripApplication extends Application {
+    private static TripApplication sInstance;
+
+    public TripApplication() {
+        sInstance = this;
+    }
+
+    /**
+     * @deprecated This is hacky.
+     */
+    public static TripApplication getInstance() {
+        return sInstance;
+    }
+
     private static Context sContext;
 
     public static Context getContext() {
